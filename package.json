@@ -2,6 +2,8 @@
   "name": "vite-test1",
   "version": "0.0.0",
   "scripts": {
+    "gitadd": "git add . && git commit -m \"update\" ",
+    "git": "npm run gitadd && git push origin master",
     "dev": "vite",
     "build": "vite build"
   },
